@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Taller MC</title>
+</head>
+<body>
+
+    <header>
+        <img src="../assets/logo_ctc.png" alt="logo negro con fondo blanco iniciales ctc" class="imagenLogo">
+        <nav id="barraNav">
+            <ul id="botoneraMenu">
+                <li><a href="../index.html" class="enlace"><button class="boton">Inicio</button></a></li>
+                <li><a href="./servicios.html"><button class="boton">Servicios</button></a></li>
+                <li><a href="./turnos.html"><button class="boton">Turnos</button></a></li>
+                <li><a href="./ubicacion.html"><button class="boton">Ubicación</button></a></li>
+                <li><a href="./contacto.html"><button class="boton">Contacto</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="" method="post" id="formContacto">
+            <fieldset class="formulario">
+                <legend>Complete el formulario</legend>
+                <div class="divForm">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                
+                <br>
+                <div class="divForm">
+                    <label for="contacto">Contacto:</label>
+                    <input type="text" id="contacto" placeholder="Whatsapp, Mail, Teléfono" required>
+                </div>
+                <br>
+    
+                <div class="divForm">    
+                    <label for="consulta">Consulta:</label>
+                    <div>
+                    <textarea name="" id="consulta" cols="30" rows="10" placeholder="Ingrese su consulta" required></textarea>
+                    </div>
+                </div>
+    
+                <br>
+                <input id="enviar" type="submit" value="Enviar">
+                <input id="reseteo" type="reset" value="Limpiar">
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <img src="../assets/logo_ctc.png" alt="logo negro con fondo blanco iniciales ctc" class="imagenLogo">
+        <div class="infoFooter">
+                Lunes a Viernes de 9am a 18hs. <br>
+                Ubicación Paso del rey, Moreno. <br> 
+                Contacto: (011)15-6055-2219.
+        </div>
+    </footer>
+</body>
+</html>
